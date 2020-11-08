@@ -1,0 +1,228 @@
+*{box-sizing: border-box;margin: 0%;padding: 0%;list-style: none;text-decoration: none;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.text-align-center{
+    text-align: center;
+}
+.border-none{
+    border: none;
+}
+input:focus{
+    outline: none;
+   
+}
+
+body>header{
+    border-bottom: 1px solid #DBDBDB;
+    background-color:#FFFFFF
+}
+/*logo section*/
+body>header>div{
+    max-width: 975px;
+}
+/**cursor pointer for alla header>div>div**/
+body>header>div>div{
+    cursor: pointer;
+}
+/**logo image*/
+body>header>div>div>a>img{
+    width: 103px;
+    height: 29px;
+}
+/***search box  width calculation***/
+body>header>div>div:nth-child(2){
+    width:calc(100% - 340px);
+}
+/***search box max width***/
+body>header>div>div:nth-child(2)>div{
+    max-width: 215px;
+}
+/***search box input***/
+body>header>div>div:nth-child(2)>div>input{
+    border:1px solid #DBDBDBDB;
+    color:#8E8E8E;
+    background-color:#FFFFFF;
+}
+/***search box icon***/
+body>header>div>div:nth-child(2)>div>i{
+    color:#8E8E8E;
+    font-size: 13px;
+}
+/***Direct notification span***/
+body>header>div>div:nth-child(3)>div:nth-child(2)>span{
+    top:-8px;
+    right:-8px;
+    color:#FFFFFF;
+    font-size: 13px;
+    background-color:#ED4956
+}
+/**Notification Panel  **/
+body>header>div>div:nth-child(3)>div:nth-child(4)>div:nth-child(3){
+    z-index:999;
+    max-height: 363px;
+    min-height: 70px;
+    overflow-y:hidden;
+    border:1px solid #DBDBDB;
+    overflow-y: scroll;
+    right: -45px;
+}
+/*** Event box span  */
+body>header>div>div:nth-child(3)>div:nth-child(4)>span{
+    top:-8px;
+    right:-8px;
+    color:#FFFFFF;
+    font-size: 13px;
+    background-color:#ED4956
+}
+/*****Notification bubble ***/
+body>header>div>div:nth-child(3)>div:nth-child(4)>div:nth-child(4){
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-top: 15px solid transparent;
+   border-bottom: 18px solid #DBDBDB;
+   
+}
+/**Notification Panel div>a font-family,color,background**/
+body>header>div>div:nth-child(3)>div:nth-child(4)>div>a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#262626;
+    background-color: #FFFFFF;
+}
+/**Notification Panel Responsive width,text-align **/
+body>header>div>div:nth-child(3)>div:nth-child(4)>div>a>div:nth-child(2){
+    width: calc(100% - 74px);
+    text-align: left;
+}
+/**Profile Panel**/
+body>header>div>div:nth-child(3)>div:nth-child(5)>ul{
+    right: -14px;
+    border:1px solid #DBDBDB;
+    border-radius: 5px;
+    z-index:9999;
+    background-color: #FFFFFF;
+    
+}
+/***profile panel ul> li >a :hover background-color **/
+body>header>div>div:nth-child(3)>div:nth-child(5)>ul>li>a:hover{
+    background-color: #fbf8f8;
+}
+/**Profile Panel ul>li>a> font-family,color,background-color**/
+body>header>div>div:nth-child(3)>div:nth-child(5)>ul>li>a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#262626;
+    background-color: #FFFFFF;
+}
+/***Profile Panel Profile Bubble border-left,right,top,bottom**/
+body>header>div>div:nth-child(3)>div:nth-child(5)>div:nth-child(1){
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-bottom: 18px solid #DBDBDB;
+}
+
+@media screen and (max-width:500px){
+    #notification-panel{
+        width: 360px;
+    }
+    .mobile-none{
+        display: none;
+    }
+}
+@media screen and (max-width:990px){
+    .md-none{
+        display: none;
+    }
+ }
+/************SECTION CSS*************/
+section{
+    max-width: 975px;
+}
+/**responsive width***/
+section>aside>div:nth-child(1)>div:nth-child(3){
+    width: calc(100% - 250);
+}
+/***a element for nickname**/
+section>aside>div:nth-child(1)>div:nth-child(2)>a{
+  
+    font-size: 14px;
+    font-weight: 600;
+    color:#262626
+}
+/***div element for username***/
+section>aside>div:nth-child(1)>div:nth-child(2)>div{
+
+    font-size: 14px;
+    font-weight: 600;
+    color:#8E8E8E
+}
+/***switch div***/
+section>aside>div:nth-child(1)>div:nth-child(3){
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color:#0095F6;
+}
+/**Suggestion Area first child**/
+section>aside>div:nth-child(2)>div:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+    color:#8E8E8E
+}
+/**Suggestion Area second child**/
+section>aside>div:nth-child(2)>div:nth-child(2){
+    cursor: pointer;
+    width: calc(100% - 240);
+    font-size: 14px;
+    font-weight: 600;
+    color:#262626
+    
+}
+/***Suggestion for all users name and nickname and images***/
+section>aside>ul>li>div:nth-child(2)>a{
+    font-size: 14px;
+    font-weight: 600;
+    color:#262626
+}
+section>aside>ul>li>div:nth-child(2)>div{
+ 
+    font-size: 14px;
+    font-weight: 600;
+    color:#8E8E8E
+}
+section>aside>ul>li>div:nth-child(3){
+    width: calc(100% - 230px);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color:#0095F6;
+}
+/***footer***/
+section>aside>ul:nth-child(4){
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #C7C7C7;
+}
+section>aside>ul:nth-child(4)>li{
+    padding-left: 5px;
+}
+section>aside>ul:nth-child(4)>li>a{
+    font-size: 11px;
+    color: #C7C7C7;
+   
+}
+section>aside>span:last-child{
+    font-size: 11px;
+    color: #C7C7C7;
+    padding: 20px;
+    
+   
+}
+/****main content**/
+
+section>main{
+    max-width: 614px;
+    height: 490px;
+  
+}

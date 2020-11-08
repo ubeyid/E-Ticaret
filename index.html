@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #FAFAFA;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/background.css">
+     <link rel="stylesheet" href="css/display.css">
+     <link rel="stylesheet" href="css/height.css">
+     <link rel="stylesheet" href="css/margin.css">
+     <link rel="stylesheet" href="css/padding.css">
+     <link rel="stylesheet" href="css/position.css">
+     <link rel="stylesheet" href="css/top-left-right-bottom.css">
+     <link rel="stylesheet" href="css/variable.css">
+     <link rel="stylesheet" href="css/width.css">
+     <link rel="stylesheet" href="css/border.css">
+     
+
+     <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+<!-----Author Übeyid koşsalun-->
+<header class="position-relative  top-0 right-0 w-100-y display-flex">
+    <!--logo section-->
+  <div class="w-100-y pt-8 pb-8 m-auto display-flex position-relative">
+    <!--firsts child-->
+    <!---cursor pointer for all header>div>div elements-->
+    <div class="w-120 mt-6 ml-8">
+        <a href="./index.html">
+            <!--logo image-->
+            <img src="images/logo.png" alt="" srcset="">
+        </a>
+    </div>
+    <!--search box-->
+    <!--second child-->
+    <!--search box  width calculation-->
+    <div class="pt-6" >
+        <!--search box max width-->
+        <!--second firs child-->
+       <div class="w-100-y  m-auto position-relative" >
+
+           <!--search box input-->
+           <input class="w-100-y p-6 text-align-center border-radius-4 mobile-none" style="background-color: #FAFAFA;" autocomplete="off" placeholder="Search" type="search" name="search" id="search">
+           <!--search box icon-->
+           <i class="fa fa-search position-absolute left-30 top-8 mobile-none" aria-hidden="true" ></i>
+            <!----input suggestion -->
+        </div>
+    </div>
+    <!---third child-->
+    <div class="pt-6 display-flex w-220">
+        <!---third first child-->
+        <div id="home" class="ml-6">
+          <a href="./index.html">
+            <svg id="home-false" aria-label="Home" class="display-none" fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M45.3 48H30c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2-4.6-4.6-4.6s-4.6 2-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.5-.6 2.1 0l21.5 21.5c.4.4.6 1.1.3 1.6 0 .1-.1.1-.1.2v22.8c.1.8-.6 1.5-1.4 1.5zm-13.8-3h12.3V23.4L24 3.6l-20 20V45h12.3V34.2c0-4.3 3.3-7.6 7.6-7.6s7.6 3.3 7.6 7.6V45z"></path></svg>
+            <svg id="home-true" aria-label="Home" class="display-block" fill="#262626" height="22" viewBox="0 0 48 48" width="22" ><path d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z"></path></svg>
+          </a>
+        </div>
+        <!---third second child-->
+        <div id="direct" class="ml-22 position-relative" href="#">
+            <svg id="direct-false" aria-label="Direct" class="display-none" fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l13.2 13c.5.4 1.1.6 1.7.3l16.6-8c.7-.3 1.6-.1 2 .5.4.7.2 1.6-.5 2l-15.6 9.9c-.5.3-.8 1-.7 1.6l4.6 19c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.5-.5.5-1.1.2-1.6z"></path></svg>
+            <svg id="direct-true" aria-label="Direct" class="display-block" " fill="#262626" height="22" viewBox="0 0 48 48" width="22" ><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+            <!---Direct notification span-->
+            <span class="p-2 position-absolute display-inline-block  text-align-center border-radius-circle">+9</i>
+        </div>
+        <!---third third child-->
+        <div id="discover" class="ml-22" href="#">
+            <svg id="discover-false" aria-label="Kişiler Bul" class="display-none" fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path clip-rule="evenodd" d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm12.2 13.8l-7 14.8c-.1.3-.4.6-.7.7l-14.8 7c-.2.1-.4.1-.6.1-.4 0-.8-.2-1.1-.4-.4-.4-.6-1.1-.3-1.7l7-14.8c.1-.3.4-.6.7-.7l14.8-7c.6-.3 1.3-.2 1.7.3.5.4.6 1.1.3 1.7zm-15 7.4l-5 10.5 10.5-5-5.5-5.5z" fill-rule="evenodd"></path></svg>
+            <svg id="discover-true" aria-label="Find Persons" class="display-block" " fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path clip-rule="evenodd" d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm0 45C12.4 45 3 35.6 3 24S12.4 3 24 3s21 9.4 21 21-9.4 21-21 21zm10.2-33.2l-14.8 7c-.3.1-.6.4-.7.7l-7 14.8c-.3.6-.2 1.3.3 1.7.3.3.7.4 1.1.4.2 0 .4 0 .6-.1l14.8-7c.3-.1.6-.4.7-.7l7-14.8c.3-.6.2-1.3-.3-1.7-.4-.5-1.1-.6-1.7-.3zm-7.4 15l-5.5-5.5 10.5-5-5 10.5z" fill-rule="evenodd"></path></svg>
+        </div>
+        <!---third fourth child-->
+        <div id="event" class="ml-22 position-relative" >
+            <svg id="event-false" aria-label="Hareket Akışı" class="display-none" fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+            <svg id="event-true" aria-label="Hareket Akışı"  class="display-block"" fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+            <!--Notification panel-->
+            <div id="notification-panel" class="position-absolute display-none top-42 w-480 bg-primary" >
+                <!---/**Notification Panel div>a**/-->
+                <a href="#" class="w-100-y display-flex pt-12 pb-12" >
+                        <div class="w-34 ml-18 pt-6">
+                            <img class="border-radius-circle" src="images/36x36bill.jpg" alt="" srcset="">
+                        </div>
+                        <!---Notification Panel Responsive -->
+                        <div class="pl-10 pt-14" >
+                               <b>Bill Gates</b> liked your photo.&nbsp;<time style="color:#8E8E8E">14h</time>
+                        </div>
+                        <div class="w-40  mr-14">
+                              <img src="images/40x40.jpg" alt="" srcset="">
+                        </div>
+                    
+                </a>
+                 
+                <a href="#" class="w-100-y display-flex pt-12 pb-12">
+                    <div class="w-34  ml-18 pt-6">
+                        <img class="border-radius-circle" src="images/36x36chackie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="pl-10 pt-14">
+                           <b>Jackie Chan</b> liked your photo.&nbsp;<time style="color:#8E8E8E">13h</time>
+                    </div>
+                    <div class="w-40 mr-14">
+                          <img src="images/40x40.jpg" alt="" srcset="">
+                    </div>
+                
+                </a>
+                <a href="#" class="w-100-y display-flex pt-12 pb-12" >
+                    <div class="w-34  ml-18 pt-6">
+                        <img class="border-radius-circle" src="images/36x36messi.jpg" alt="" srcset="">
+                    </div>
+                    <div class="pl-10 pt-14">
+                           <b>Messi</b> liked your photo.&nbsp;<time style="color:#8E8E8E">12h</time>
+                    </div>
+                    <div class="w-40 mr-14">
+                          <img src="images/40x40.jpg" alt="" srcset="">
+                    </div>
+                
+                </a>
+                <a href="#" class="w-100-y display-flex pt-12 pb-12" >
+                    <div class="w-34  ml-18 pt-6">
+                        <img class="border-radius-circle" src="images/36x36ronaldo.jpg" alt="" srcset="">
+                    </div>
+                    <div class="pl-10 pt-14" >
+                           <b>Ronaldo</b> liked your photo.&nbsp;<time style="color:#8E8E8E">11h</time>
+                    </div>
+                    <div class="w-40 mr-14">
+                          <img src="images/40x40.jpg" alt="" srcset="">
+                    </div>
+                
+                </a>
+                <a href="#" class="w-100-y display-flex pt-12 pb-12" >
+                    <div class="w-34  ml-18 pt-6">
+                        <img class="border-radius-circle" src="images/36x36saruman.jpg" alt="" srcset="">
+                    </div>
+                    <div class="pl-10 pt-14" >
+                           <b>Saruman</b> liked your photo.&nbsp;<time style="color:#8E8E8E">10h</time>
+                    </div>
+                    <div class="w-40 mr-14">
+                          <img src="images/40x40.jpg" alt="" srcset="">
+                    </div>
+                
+                </a>
+                <a href="#" class="w-100-y display-flex pt-12 pb-12" >
+                    <div class="w-34  ml-18 pt-6">
+                        <img class="border-radius-circle" src="images/36x36smegol.jpg" alt="" srcset="">
+                    </div>
+                    <div class="pl-10 pt-14">
+                           <b>Smegol</b> liked your photo.&nbsp;<time style="color:#8E8E8E">9h</time>
+                    </div>
+                    <div class="w-40 mr-14">
+                          <img src="images/40x40.jpg" alt="" srcset="">
+                    </div>
+                
+                </a>
+                <a href="#" class="w-100-y display-flex pt-12 pb-12"">
+                    <div class="w-34  ml-18 pt-6">
+                        <img class="border-radius-circle" src="images/36x36zuckerberg.jpg" alt="" srcset="">
+                    </div>
+                    <div class="pl-10 pt-14" >
+                           <b>Zuckerberg</b> liked your photo.&nbsp;<time style="color:#8E8E8E">8h</time>
+                    </div>
+                    <div class="w-40 mr-14">
+                          <img src="images/40x40.jpg" alt="" srcset="">
+                    </div>
+                
+                </a>
+            </div>
+            <!--Notification bubble-->
+            <div id="notification-bubble" class="position-absolute display-none top-10 right-4-n bg-alert w-0 h-0"></div>
+             <!---Event box span-->
+             <span id="event-box" class="p-2 position-absolute display-inline-block  text-align-center border-radius-circle">+9</i>
+        </div>
+        <!--third fifth child-->
+        <div id="profile" class="ml-22 position-relative">
+            <!--profile bubble-->
+            <div id="profile-bubble" class="position-absolute display-none top-10 right-4-n bg-alert w-0 h-0"></div>
+            <img class="w-22 h-22 border-radius-circle" src="images/22x22.jpg" alt="" srcset="">
+            <ul id="profile-panel"class="position-absolute w-220 h-auto top-42 pl-14 pt-10 display-none">
+                   <li class="w-100-y">
+                       <a class="w-100-y display-flex" href="#">
+                           <div class="w-20 p-6">
+                            <svg aria-label="Profile" fill="#262626" height="16" viewBox="0 0 32 32" width="16"><path d="M16 0C7.2 0 0 7.1 0 16c0 4.8 2.1 9.1 5.5 12l.3.3C8.5 30.6 12.1 32 16 32s7.5-1.4 10.2-3.7l.3-.3c3.4-3 5.5-7.2 5.5-12 0-8.9-7.2-16-16-16zm0 29c-2.8 0-5.3-.9-7.5-2.4.5-.9.9-1.3 1.4-1.8.7-.5 1.5-.8 2.4-.8h7.2c.9 0 1.7.3 2.4.8.5.4.9.8 1.4 1.8-2 1.5-4.5 2.4-7.3 2.4zm9.7-4.4c-.5-.9-1.1-1.5-1.9-2.1-1.2-.9-2.7-1.4-4.2-1.4h-7.2c-1.5 0-3 .5-4.2 1.4-.8.6-1.4 1.2-1.9 2.1C4.2 22.3 3 19.3 3 16 3 8.8 8.8 3 16 3s13 5.8 13 13c0 3.3-1.2 6.3-3.3 8.6zM16 5.7c-3.9 0-7 3.1-7 7s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7zm0 11c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"></path></svg>
+                           </div>
+                           <div class="w-200 ml-12 p-6" style="text-align: left;line-height: 16px;">
+                             Profile
+                           </div>
+                       </a>
+                   </li>
+                   <li class="w-100-y">
+                    <a class="w-100-y display-flex" href="#">
+                        <div class="w-20 p-6">
+                            <svg aria-label="Saved"  fill="#262626" height="16" viewBox="0 0 32 32" width="16"><path d="M28.7 32c-.4 0-.8-.2-1.1-.4L16 19.9 4.4 31.6c-.4.4-1.1.6-1.6.3-.6-.2-.9-.8-.9-1.4v-29C1.8.7 2.5 0 3.3 0h25.4c.8 0 1.5.7 1.5 1.5v29c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM4.8 3v23.9l9.4-9.4c.9-.9 2.6-.9 3.5 0l9.4 9.4V3H4.8z"></path></svg>
+                        </div>
+                        <div class="w-200 ml-12 p-6" style="text-align: left;line-height: 16px;">
+                          Saved
+                        </div>
+                    </a>
+                </li>
+                <li class="w-100-y">
+                    <a class="w-100-y display-flex" href="#">
+                        <div class="w-20 p-6">
+                            <svg aria-label="Settings" fill="#262626" height="16" viewBox="0 0 32 32" width="16"><path d="M31.2 13.4l-1.4-.7c-.1 0-.2-.1-.2-.2v-.2c-.3-1.1-.7-2.1-1.3-3.1v-.1l-.2-.1v-.3l.5-1.5c.2-.5 0-1.1-.4-1.5l-1.9-1.9c-.4-.4-1-.5-1.5-.4l-1.5.5H23l-.1-.1h-.1c-1-.5-2-1-3.1-1.3h-.2c-.1 0-.1-.1-.2-.2L18.6.9c-.2-.5-.7-.9-1.2-.9h-2.7c-.5 0-1 .3-1.3.8l-.7 1.4c0 .1-.1.2-.2.2h-.2c-1.1.3-2.1.7-3.1 1.3h-.1l-.1.2h-.3l-1.5-.5c-.5-.2-1.1 0-1.5.4L3.8 5.7c-.4.4-.5 1-.4 1.5l.5 1.5v.5c-.5 1-1 2-1.3 3.1v.2c0 .1-.1.1-.2.2l-1.4.7c-.6.2-1 .7-1 1.2v2.7c0 .5.3 1 .8 1.3l1.4.7c.1 0 .2.1.2.2v.2c.3 1.1.7 2.1 1.3 3.1v.1l.2.1v.3l-.5 1.5c-.2.5 0 1.1.4 1.5l1.9 1.9c.3.3.6.4 1 .4.2 0 .3 0 .5-.1l1.5-.5H9l.1.1h.1c1 .5 2 1 3.1 1.3h.2c.1 0 .1.1.2.2l.7 1.4c.2.5.7.8 1.3.8h2.7c.5 0 1-.3 1.3-.8l.7-1.4c0-.1.1-.2.2-.2h.2c1.1-.3 2.1-.7 3.1-1.3h.1l.1-.1h.3l1.5.5c.1 0 .3.1.5.1.4 0 .7-.1 1-.4l1.9-1.9c.4-.4.5-1 .4-1.5l-.5-1.5V23l.1-.1v-.1c.5-1 1-2 1.3-3.1v-.2c0-.1.1-.1.2-.2l1.4-.7c.5-.2.8-.7.8-1.3v-2.7c0-.5-.4-1-.8-1.2zM16 27.1c-6.1 0-11.1-5-11.1-11.1S9.9 4.9 16 4.9s11.1 5 11.1 11.1-5 11.1-11.1 11.1z"></path></svg>
+                        </div>
+                        <div class="w-200 ml-12 p-6" style="text-align: left;line-height: 16px;">
+                          Settings
+                        </div>
+                    </a>
+                </li>
+                <li class="w-100-y">
+                    <a class="w-100-y display-flex" href="#">
+                        <div class="w-20 p-6">
+                            <svg aria-label="Switch Accounts"  fill="#262626" height="16" viewBox="0 0 32 32" width="16"><path d="M10.3 10.7c0-.8-.7-1.5-1.5-1.5H4.9C7.2 5.4 11.4 3 16 3c3.6 0 7 1.5 9.5 4.1.5.6 1.5.6 2.1.1.6-.6.6-1.5.1-2.1-3-3.2-7.3-5-11.7-5C10.7 0 6 2.5 3 6.7V3.5C3 2.7 2.3 2 1.5 2S0 2.7 0 3.5v7.2c0 .8.7 1.5 1.5 1.5h7.3c.8 0 1.5-.6 1.5-1.5zm20.2 9.1h-7.2c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h3.8C24.8 26.6 20.6 29 16 29c-3.6 0-7-1.5-9.5-4.1-.5-.6-1.5-.6-2.1-.1-.6.6-.6 1.5-.1 2.1 3 3.2 7.3 5 11.7 5 5.3 0 10-2.5 13-6.7v3.2c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-7.2c0-.8-.7-1.4-1.5-1.4z"></path></svg>
+                        </div>
+                        <div class="w-200 ml-12 p-6" style="text-align: left;line-height: 16px;">
+                          Switch Accounts
+                        </div>
+                    </a>
+                </li>
+            
+                <li class="w-100-y">
+                    <a class="w-100-y display-flex " href="#">
+                        <div class="w-20 p-6">
+                         
+                        </div>
+                        <div class="w-200 ml-12 p-6" style="text-align: left;line-height: 16px;">
+                          Log Out
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!----->
+        </div>
+        
+    </div>
+  </div>
+
+</header>
+
+<!----section-->
+<section class="w-100-y  h-auto mt-26  position-relative m-auto display-flex" >
+    <main class="w-100-y m-auto">
+       
+        <header id="story-header" class="w-100-y position-relative" style="border: 1px solid #DBDBDB;background-color: #FFFFFF;">
+             <!---left icon---->
+        <div id="story-left-icon" class="position-absolute w-30 h-30 top-40 left-4 cursor-pointer">
+                  <img class="w-12 h-12" src="./images/left-icon.svg" alt="">
+             </div>
+             <!---right icon--->
+            <div id="story-right-icon" class="position-absolute w-30 h-30 top-40  cursor-pointer" style="right:4px">
+                <img class="w-12 h-12" src="./images/right-icon.svg" alt="">
+             </div>
+            <ul id="story-list" class="w-100-y display-flex  pt-20 pb-20 text-align-center" style="overflow: hidden;scroll-behavior: smooth;">
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">ubeyid</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56aragorn.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">aragorn</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56billgates.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">billgates</div>
+                </li>
+           
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56messi.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">messi</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">ubeyid</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56aragorn.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">aragorn</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56messi.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">messi</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56saruman.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">saruman</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56messi.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">messi</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56saruman.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">saruman</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56smeagol.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">smegol</div>
+                </li>
+  
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56messi.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">messi</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56smeagol.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">smegol</div>
+                </li>
+                <li class="w-60 ml-8 mr-8 cursor-pointer">
+                    <div class="w-60 h-60 border-radius-circle p-4" style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56messi.jpg" alt="">
+                    </div>
+                    <div  style="font-size: 14px;color:#262626">messi</div>
+                </li>
+            </ul>
+        </header>
+        <article class="w-100-y h-auto" >
+            <!---header of article-->
+            <header class="w-100-y display-flex mt-20 p-10 pr-0" style="border: 1px solid #DBDBDB;background-color: #FFFFFF;">
+                <!--user photo section-->
+                <a href="#" class="w-50 h-50 ">
+                    <div class="border-radius-circle p-4 w-50 h-50 " style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56.jpg" alt="">
+                    </div>
+                </a>
+                <!---user name-->
+                <a href="#" style="width: calc(100% - 90px);line-height: 50px;">
+                    <div class="pl-16"  style="font-size: 14px;color:#262626;font-weight: 600;font-size: 14px;">ubeyidkossalun</div>
+                </a>
+                 <!---article settings icon section-->
+                 <div class="w-40 cursor-pointer" style="line-height: 50px;">
+                     <svg id="article-svg-settings" aria-label="More options"  fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+
+                </div>
+            </header>
+            <!---content of article-->
+            <div class="w-100-y position-relative display-flex" style="background-color: black;">
+               <img class="m-auto w-100-y" src="./images/content-test.jpg" alt="" style="max-width: 100%;">
+            </div>
+            <!--content info area-->
+            <div class="w-100-y" style="border: 1px solid #DBDBDB;background-color: #FFFFFF;">
+                 <div class="w-100-y display-flex p-10">
+                     <div class="w-40 cursor-pointer"><svg aria-label="Like" fill="#262626" height="24" viewBox="0 0 48 48" width="24" style=""><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z" style=""></path></svg></div>
+                     <div class="w-40 cursor-pointer"><svg aria-label="Comment" " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg></div>
+                     <div class="cursor-pointer" style="width:calc(100% - 120px)"><svg aria-label="Share Post" fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg></div>
+                     <div class="w-40 cursor-pointer><svg aria-label="Save"  fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg></div>
+                 </div>
+                 <div class="w-100-y pl-12" style="font-weight: 600;font-size: 14px;color:#262626">
+                     <span>20,500,350</span>&nbsp;<span>views</span>
+                 </div>
+                 <div class="w-100-y pl-12">
+                     <a href="#" style="color: #262626;font-weight: 600;font-size: 14px;">sauron</a><a href="#" style="color: #00376B;font-weight: 600;font-size: 14px;margin-left: 12px;">@billgates</a>&nbsp;<span>Lol :)))</span>
+                 </div>
+                 <div class="w-100-y pl-12 mt-12 mb-10" style="font-size: 10px;color: #8E8E8E;">
+                    <span >18 MINITUES AGO</span>
+                </div>
+                 <div class="w-100-y display-flex pb-10s" style="border-top: 1px solid #DBDBDB;">
+                     <input class="p-12" style="width: calc(100% - 40px);border: none;" autocomplete="off" text" name="comment" id="comment" placeholder="Add a comment..." >
+                     <input class="p-12 pl-8 w-40 text-align-center cursor-pointer" style="background-color:rgb(211, 230, 230);border:none;" value="Post" type="button"/>
+                </div>
+            </div>
+        </article>
+        <!---another article shared by onother one-->
+        <article class="w-100-y h-auto" >
+            <!---header of article-->
+            <header class="w-100-y display-flex mt-20 p-10 pr-0" style="border: 1px solid #DBDBDB;background-color: #FFFFFF;">
+                <!--user photo section-->
+                <a href="#" class="w-50 h-50 ">
+                    <div class="border-radius-circle p-4 w-50 h-50 " style="border: 3px solid #ED4956;">
+                        <img class="w-100-y h-100-y border-radius-circle" src="./images/56x56aragorn.jpg" alt="">
+                    </div>
+                </a>
+                <!---user name-->
+                <a href="#" style="width: calc(100% - 90px);line-height: 50px;">
+                    <div class="pl-16"  style="font-size: 14px;color:#262626;font-weight: 600;font-size: 14px;">aragorn</div>
+                </a>
+                 <!---article settings icon section-->
+                 <div class="w-40 cursor-pointer" style="line-height: 50px;">
+                    <svg aria-label="More options"  fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                 </div>
+            </header>
+            <!---content of article-->
+            <div class="w-100-y position-relative display-flex" style="background-color: black;">
+               <img class="m-auto w-100-y" src="./images/lotr-test.jpg" alt="" style="max-width: 100%;">
+            </div>
+            <!--content info area-->
+            <div class="w-100-y" style="border: 1px solid #DBDBDB;background-color: #FFFFFF;">
+                 <div class="w-100-y display-flex p-10">
+                     <div class="w-40 cursor-pointer"><svg aria-label="Like" fill="#262626" height="24" viewBox="0 0 48 48" width="24" style=""><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z" style=""></path></svg></div>
+                     <div class="w-40 cursor-pointer"><svg aria-label="Comment" " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg></div>
+                     <div class="cursor-pointer" style="width:calc(100% - 120px)"><svg aria-label="Share Post" fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg></div>
+                     <div class="w-40 cursor-pointer><svg aria-label="Save"  fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg></div>
+                 </div>
+                 <div class="w-100-y pl-12" style="font-weight: 600;font-size: 14px;color:#262626">
+                     <span>500,350</span>&nbsp;<span>views</span>
+                 </div>
+                 <div class="w-100-y pl-12">
+                     <a href="#" style="color: #262626;font-weight: 600;font-size: 14px;">smegol</a><a href="#" style="color: #00376B;font-weight: 600;font-size: 14px;margin-left: 12px;">@sauron</a>&nbsp;<span>my precious!!!! :)</span>
+                 </div>
+                 <div class="w-100-y pl-12 mt-12 mb-10" style="font-size: 10px;color: #8E8E8E;">
+                    <span >29 MINITUES AGO</span>
+                </div>
+                 <div class="w-100-y display-flex pb-10s" style="border-top: 1px solid #DBDBDB;">
+                     <input class="p-12" style="width: calc(100% - 40px);border: none;" type="text" autocomplete="off" name="comment" id="comment" placeholder="Add a comment..." >
+                     <input class="p-12 pl-8 w-40 text-align-center cursor-pointer" style="background-color:rgb(211, 230, 230);border:none;" value="Post" type="button"/>
+                </div>
+            </div>
+        </article>
+    </main>
+    <aside class="w-340  md-none ">
+         <!---first child-->
+        <div class="w-100-y display-flex  p-20">
+             <div class="w-60">
+                 <a href="#">
+                    <img class="border-radius-circle" src="./images/56x56.jpg" alt="">
+                 </a>
+             </div>
+             <div class="w-190 p-8 pl-16">
+                 <!----a element for nickname-->
+                 <a href="#">ubeyidkossalun</a>
+                 <!----div element for username-->
+                 <div>Übeyid Koşsalun</div>
+             </div>
+             <!---responsive width->
+             <!---switch div-->
+             <div class="p-18">Switch</div>
+         </div>
+         <!---second child-->
+         <!---Sugestion area-->
+         <div class="w-100-y display-flex p-10">
+             <!---suggestion area first child-->
+             <div class="w-240 pl-8">Suggestions For You</div>
+              <!---suggestion area second child-->
+             <div class="ml-6">See All</div> 
+         </div>
+         <!---third child-->
+         <!---suggestion users area-->
+         <ul class="w-100-y  p-4 pl-24">
+           <!--suggestion user image-->
+           <li class="w-100-y display-flex">
+               <!---user image div-->
+              <div class="w-50 h-50">
+                  <!---user image element-->
+                 <img class="border-radius-circle" src="./images/40x40bill.jpg" alt="">
+              </div>
+              <div class="w-180 ml-2">
+                   <!----a element for nickname-->
+                 <a href="#">billgates</a>
+                 <!----div element for username-->
+                 <div>New to Instagram</div>
+              </div>
+              <div class="mt-12">Follow</div>
+           </li>
+           <li class="w-100-y display-flex">
+            <!---user image div-->
+           <div class="w-50 h-50">
+               <!---user image element-->
+              <img class="border-radius-circle" src="./images/40x40zuckerberg.jpg" alt="">
+           </div>
+           <div class="w-180 ml-2">
+                <!----a element for nickname-->
+              <a href="#">zuckerberg</a>
+              <!----div element for username-->
+              <div>New to Instagram</div>
+           </div>
+           <div class="mt-12">Follow</div>
+         </li>
+
+         <li class="w-100-y display-flex">
+            <!---user image div-->
+           <div class="w-50 h-50">
+               <!---user image element-->
+              <img class="border-radius-circle" src="./images/40x40jackie.jpg" alt="">
+           </div>
+           <div class="w-180 ml-2">
+                <!----a element for nickname-->
+              <a href="#">jackiechan</a>
+              <!----div element for username-->
+              <div>New to Instagram</div>
+           </div>
+           <div class="mt-12">Follow</div>
+         </li>
+         <li class="w-100-y display-flex">
+            <!---user image div-->
+           <div class="w-50 h-50">
+               <!---user image element-->
+              <img class="border-radius-circle" src="./images/40x40messi.jpg" alt="">
+           </div>
+           <div class="w-180 ml-2">
+                <!----a element for nickname-->
+              <a href="#">messi</a>
+              <!----div element for username-->
+              <div>New to Instagram</div>
+           </div>
+           <div class="mt-12">Follow</div>
+         </li>
+         <li class="w-100-y display-flex">
+            <!---user image div-->
+           <div class="w-50 h-50">
+               <!---user image element-->
+              <img class="border-radius-circle" src="./images/40x40ronaldo.jpg" alt="">
+           </div>
+           <div class="w-180 ml-2">
+                <!----a element for nickname-->
+              <a href="#">ronaldo</a>
+              <!----div element for username-->
+              <div>New to Instagram</div>
+           </div>
+           <div class="mt-12">Follow</div>
+         </li>
+        </ul>
+        <!---fourth child-->
+        <!-----footer-->
+        <ul class="w-100-y display-flex pl-16 pt-2 pb-8">
+           <li><a href="">About</a>&nbsp.</li>
+           <li><a href="">Help</a>&nbsp.</li>
+           <li><a href="">Press</a>&nbsp.</li>
+           <li><a href="">API</a>&nbsp.</li>
+           <li><a href="">Jobs</a>&nbsp.</li>
+           <li><a href="">Privacy</a>&nbsp.</li>
+           <li><a href="">Terms</a>&nbsp.</li>
+           <li><a href="">Locations</a>&nbsp.</li>
+           <li><a href="">Top Accounts</a>&nbsp.</li>
+           <li><a href="">Hashtags</a>&nbsp.</li>
+           <li><a href="">Language</a></li>
+           
+        </ul>
+        <span>&#169 &nbsp 2020 INSTAGRAM FROM FACEBOOK</span>
+    </aside>
+    
+</section>
+                
+
+</body>
+</html>
